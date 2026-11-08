@@ -1,21 +1,20 @@
-# Rudy Hermawan — Solusi IT untuk Bisnis
+# Rudy Hermawan — IT Solutions for Business
 
-Situs profil satu halaman untuk layanan IT bagi perusahaan dan toko.
+A one-page profile website for IT services supporting businesses and retail stores.
 
-## Isi
-- IT support dan maintenance PC
-- Instalasi server dan konfigurasi jaringan
-- Program distributor dan POS retail
-- CCTV
-- Kontak WhatsApp
+## Services
+- IT support and PC maintenance
+- Server installation and network configuration
+- Distributor software and retail POS
+- CCTV installation and support
 
-## Menjalankan secara lokal
-Buka `index.html` di browser, atau jalankan server statis dari folder ini, misalnya:
+## Run locally
+Open `index.html` in a browser, or run a static server from this directory:
 
 ```bash
 python3 -m http.server 8000
 ```
 
-Lalu buka `http://localhost:8000`.
+Then visit `http://localhost:8000`.
 
-Situs ini menggunakan HTML/CSS sederhana tanpa build step. Foto profil berada di `assets/foto-rudy.png`.
+The site uses plain HTML and CSS with no build step. The profile photo is stored at `assets/foto-rudy.png`.
