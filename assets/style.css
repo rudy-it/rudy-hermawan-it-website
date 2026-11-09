@@ -73,3 +73,5 @@
 .inq button{cursor:pointer;border:0}
 [data-theme=dark] .inq{background:#112338}
 @media(max-width:600px){.inq{grid-template-columns:1fr;padding:20px}}
+.langBtn{font-size:12px;font-weight:800;width:auto;padding:0 12px;color:var(--navy)}[data-theme=dark] .langBtn{color:#fff}
+.portraitFrame{position:relative;background:#e9ebe8}.portraitPhoto{position:absolute;width:132%;height:auto;max-width:none;left:-12.7%;top:-4%;object-fit:fill;object-position:center;border-radius:0;transform:none}
